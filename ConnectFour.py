@@ -229,5 +229,8 @@ def play_game():
 
 
     
-
-play_game()
+while True:
+    play_game()
+    inp = input("Do you want to play again? (y/n)")
+    if inp != 'y':
+        break
